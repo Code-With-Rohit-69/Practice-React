@@ -1,0 +1,91 @@
+body {
+  font-family: sans-serif;
+  -webkit-font-smoothing: auto;
+  -moz-font-smoothing: auto;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: auto;
+  text-rendering: optimizeLegibility;
+  font-smooth: always;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+h1 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.input {
+  margin-top: 20px;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.input input {
+  padding: 10px 15px;
+  width: 300px;
+}
+
+.input button {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.image-container {
+  display: flex;
+  align-items: 1rem;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 0 5rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.images-div {
+  width: 300px;
+  position: relative;
+  overflow: hidden;
+}
+
+.images-div img {
+  width: 100%;
+  cursor: pointer;
+  transition: all .3s linear;
+}
+
+.images-div img:hover {
+  transform: scale(1.05);
+}
+
+.images-div button {
+  background-color: red;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.preview {
+  position: absolute;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(5px);
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(149, 149, 149, 0.135);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.preview img {
+  width: 80%;
+  object-fit: cover;
+}

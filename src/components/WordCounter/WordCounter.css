@@ -1,0 +1,22 @@
+.wordCounter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  padding: 10px;
+}
+.textarea {
+  width: 300px;
+  height: 40px;
+  padding: 10px 15px;
+  border: 1px solid red;
+}
+ul li {
+  list-style-type: square;
+}
+li {
+  text-align: left;
+  margin: 5px 0;
+}
