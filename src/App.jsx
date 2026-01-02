@@ -11,11 +11,12 @@ import Calculator from "./components/Calculator/Calculator";
 import EmojiReplacer from "./components/EmojiReplacer/EmojiReplacer";
 import PasswordGenerator from "./components/PasswordGenerator/PasswordGenerator";
 import GridLights from "./components/GridLights/GridLights";
+import KnightChessboard from "./components/KnightMoves/KnightChessboard";
 
 const App = () => {
   return (
     <div>
-      <GridLights n={5} />
+      <KnightChessboard />
     </div>
   );
 };
