@@ -13,13 +13,11 @@ import PasswordGenerator from "./components/PasswordGenerator/PasswordGenerator"
 import GridLights from "./components/GridLights/GridLights";
 import KnightChessboard from "./components/KnightMoves/KnightChessboard";
 import QueenBoard from "./components/QueenMove/QueenBoard";
+import DrawCircles from "./components/DrawCircles/DrawCircles";
+import Pagination from "./components/Pagination/Pagination";
 
 const App = () => {
-  return (
-    <div>
-      <QueenBoard />
-    </div>
-  );
+  return <Pagination />;
 };
 
 export default App;
