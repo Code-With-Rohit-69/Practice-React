@@ -15,9 +15,10 @@ import KnightChessboard from "./components/KnightMoves/KnightChessboard";
 import QueenBoard from "./components/QueenMove/QueenBoard";
 import DrawCircles from "./components/DrawCircles/DrawCircles";
 import Pagination from "./components/Pagination/Pagination";
+import PawnBoard from "./components/PawnBoard/PawnBoard";
 
 const App = () => {
-  return <Pagination />;
+  return <PawnBoard />;
 };
 
 export default App;
