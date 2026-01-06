@@ -16,9 +16,10 @@ import QueenBoard from "./components/QueenMove/QueenBoard";
 import DrawCircles from "./components/DrawCircles/DrawCircles";
 import Pagination from "./components/Pagination/Pagination";
 import PawnBoard from "./components/PawnBoard/PawnBoard";
+import ColorExplorer from "./components/ColorExplorer/ColorExplorer";
 
 const App = () => {
-  return <PawnBoard />;
+  return <ColorExplorer />;
 };
 
 export default App;
