@@ -17,9 +17,10 @@ import DrawCircles from "./components/DrawCircles/DrawCircles";
 import Pagination from "./components/Pagination/Pagination";
 import PawnBoard from "./components/PawnBoard/PawnBoard";
 import ColorExplorer from "./components/ColorExplorer/ColorExplorer";
+import ResizableSplitPane from "./components/Resizable Split Plane/ResizableSplitPane.jsx";
 
 const App = () => {
-  return <ColorExplorer />;
+  return <ResizableSplitPane />;
 };
 
 export default App;
