@@ -18,9 +18,10 @@ import Pagination from "./components/Pagination/Pagination";
 import PawnBoard from "./components/PawnBoard/PawnBoard";
 import ColorExplorer from "./components/ColorExplorer/ColorExplorer";
 import ResizableSplitPane from "./components/Resizable Split Plane/ResizableSplitPane.jsx";
+import PinItems from "./components/PinItems/PinItems.jsx";
 
 const App = () => {
-  return <ResizableSplitPane />;
+  return <PinItems />;
 };
 
 export default App;
