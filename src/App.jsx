@@ -19,9 +19,10 @@ import PawnBoard from "./components/PawnBoard/PawnBoard";
 import ColorExplorer from "./components/ColorExplorer/ColorExplorer";
 import ResizableSplitPane from "./components/Resizable Split Plane/ResizableSplitPane.jsx";
 import PinItems from "./components/PinItems/PinItems.jsx";
+import GridLights2 from "./components/GridLights2/GridLights2.jsx";
 
 const App = () => {
-  return <PinItems />;
+  return <GridLights2 />;
 };
 
 export default App;

@@ -1,0 +1,22 @@
+* {
+    font-family: sans-serif;
+}
+
+.heading {
+    font-size: 1.4rem;
+}
+
+.grids {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: .8rem;
+    margin-top: 2rem;
+}
+
+.grid {
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #444;
+    cursor: pointer;
+}
