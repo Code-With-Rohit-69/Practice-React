@@ -1,5 +1,4 @@
 import React from "react";
-import RecipeFilterApp from "./components/RecipeFilterApp";
 import ImageGallery from "./components/ImageGallery/ImageGallery";
 import ColorCodeGame from "./components/ColorCode/ColorCode";
 import CharacterCount from "./components/CharacterCount/CharacterCount";
@@ -20,9 +19,10 @@ import ColorExplorer from "./components/ColorExplorer/ColorExplorer";
 import ResizableSplitPane from "./components/Resizable Split Plane/ResizableSplitPane.jsx";
 import PinItems from "./components/PinItems/PinItems.jsx";
 import GridLights2 from "./components/GridLights2/GridLights2.jsx";
+import TrafficLight from "./components/TrafficLight/TrafficLight.jsx";
 
 const App = () => {
-  return <GridLights2 />;
+  return <TrafficLight />
 };
 
 export default App;
