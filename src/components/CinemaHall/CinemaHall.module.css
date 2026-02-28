@@ -1,0 +1,38 @@
+.mainContainer {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.col {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.disabledSeat {
+  background-color: grey;
+  pointer-events: none;
+}
+
+.selectedSeat {
+  background-color: green;
+}
+
+.buttonSection {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}

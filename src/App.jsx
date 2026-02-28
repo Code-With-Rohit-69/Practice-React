@@ -20,9 +20,10 @@ import ResizableSplitPane from "./components/Resizable Split Plane/ResizableSpli
 import PinItems from "./components/PinItems/PinItems.jsx";
 import GridLights2 from "./components/GridLights2/GridLights2.jsx";
 import TrafficLight from "./components/TrafficLight/TrafficLight.jsx";
+import CinemaHall from "./components/CinemaHall/CinemaHall.jsx";
 
 const App = () => {
-  return <TrafficLight />
+  return <CinemaHall />
 };
 
 export default App;
