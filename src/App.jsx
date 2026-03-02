@@ -21,9 +21,10 @@ import PinItems from "./components/PinItems/PinItems.jsx";
 import GridLights2 from "./components/GridLights2/GridLights2.jsx";
 import TrafficLight from "./components/TrafficLight/TrafficLight.jsx";
 import CinemaHall from "./components/CinemaHall/CinemaHall.jsx";
+import ListSorter from "./components/ListSorter/ListSorter.jsx";
 
 const App = () => {
-  return <CinemaHall />
+  return <ListSorter />
 };
 
 export default App;
