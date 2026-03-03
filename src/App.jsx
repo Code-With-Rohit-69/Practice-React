@@ -22,9 +22,10 @@ import GridLights2 from "./components/GridLights2/GridLights2.jsx";
 import TrafficLight from "./components/TrafficLight/TrafficLight.jsx";
 import CinemaHall from "./components/CinemaHall/CinemaHall.jsx";
 import ListSorter from "./components/ListSorter/ListSorter.jsx";
+import DiceRoller from "./components/DiceRoller/DiceRoller.jsx";
 
 const App = () => {
-  return <ListSorter />
+  return <DiceRoller />;
 };
 
 export default App;
